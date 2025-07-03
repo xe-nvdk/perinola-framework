@@ -32,8 +32,6 @@ plugins:
   - search:
       lang: en
   - meta
-  - sitemap:
-      map_pages: true
 
 markdown_extensions:
   - pymdownx.emoji:

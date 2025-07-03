@@ -1,3 +1,2 @@
 mkdocs==1.5.3
 mkdocs-material==9.4.8
-mkdocs-sitemap-plugin==0.6.0

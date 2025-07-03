@@ -31,7 +31,6 @@ nav:
 plugins:
   - search:
       lang: en
-  - meta
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -42,6 +41,5 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-  - meta
   - attr_list
   - pymdownx.snippets

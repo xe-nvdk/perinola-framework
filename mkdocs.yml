@@ -1,6 +1,13 @@
 site_name: Perinola Framework
-site_description: The agile framework where everyone puts in (and everyone wins)
-site_url: https://perinola.dev
+site_description: Revolutionary agile framework with rotating roles - boost team collaboration, shared ownership, and dynamic leadership. Perfect for modern distributed teams.
+site_url: https://xe-nvdk.github.io/perinola-framework/
+site_author: Ignacio Van Droogenbroeck
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xe-nvdk/perinola-framework
+  generator: false
 
 theme:
   name: material
@@ -21,6 +28,13 @@ nav:
   - Getting Started: getting-started.md
   - Implementation Guide: implementation-guide.md
 
+plugins:
+  - search:
+      lang: en
+  - meta
+  - sitemap:
+      map_pages: true
+
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -30,3 +44,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - meta
+  - attr_list
+  - pymdownx.snippets

@@ -1,0 +1,32 @@
+site_name: Perinola Framework
+site_description: The agile framework where everyone puts in (and everyone wins)
+site_url: https://perinola.dev
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - What is Perinola?: what-is-perinola.md
+  - The Six Spins: the-six-spins.md
+  - Getting Started: getting-started.md
+  - Implementation Guide: implementation-guide.md
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
